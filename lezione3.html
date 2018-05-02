@@ -112,56 +112,242 @@
   }
     .left-column h2:last-of-type, .left-column h3:last-child {
       color: #ddd;
+      position:block;
     }
   .right-column {
     width: 75%;
     float: right;
     padding-top: 1em;
   }
-  .first {background-image:url(https://www.thefreecircle.org/images/layout/logo.png);}
-  .dark {background-color:#222;color: white;}
-  .azure {background-color:#68A9ED;color: white;}
+  .dark {background-color: #222;color: white;}
+  .azure {background-color: #68A9ED;color: white;}
+  .green {background-color: #20AE4D;color: white;}
 </style>
   </head>
   <body onload="var slideshow = remark.create();" bgcolor="black">
     <textarea id="source">
 
 name: Introduzione a GNU/Linux
-class: center, middle, dark, first
-
----
 class: center, middle, dark
-# Introduzione a GNU/Linux
+<img src="img/freecircle.png" />
 ---
-class: center, middle, dark
+class: center, middle, azure
+##Introduzione a GNU/Linux
+### Parte 3
+<img height="500" src="img/teenage-sex-bash.jpg" />
+---
+class: center, middle, green
 .left-column[
-## Chi sono
+### Chi sono
 ]
 
 .right-column[
-  ##Lorenzo "Palinuro" Faletra
+  ###Lorenzo "Palinuro" Faletra
 
   Parrot Security<br>
   Caine Forensics<br>
   Debian PKG-Security<br>
 ]
----
-class: center, middle
-# Software Libero
-<img src="img/stallman.png" />
----
-class: center, middle, dark
-##Stallman? Raymond?
 
-differenze tra .red[open source] e .green[software libero]
 ---
-class: center, middle, dark
-##Business model
-##di questo branco di pazzi
+class: middle, dark
+
+## In questa puntata
+
+ * primo contatto con la shell
+
+ * regole di base per muoversi nel sistema
+
+ * regole sintattiche
+
+ * pipelines e concatenazione
+
+ * programmazione
+
+
 ---
-class: center, middle, azure
-#UNIX e POSIX
-<img width="80%" src="img/micro-mono.png" />
+class: middle, center, dark
+
+## si ma perchè?
+
+---
+class: middle, center
+<img height="500" src="img/disturbing-lack-of-linux.jpg" />
+
+---
+class: middle, center, dark
+
+### è un linguaggio di programmazione estremamente semplice
+<img src="img/python-libraries.jpg" />
+
+---
+class: middle, center, dark
+### semplice e facile in questo caso coincidono!
+<img height="500" src="img/allocazione-dinamica.jpg" />
+
+---
+class: middle, center, dark
+
+### tutto ha un prezzo
+<img height="500" src="img/sacchetti-header.jpg" />
+
+---
+class: middle, center, dark
+
+### tutto ha un prezzo
+<img height="500" src="img/sacchetti-header-v2.jpg" />
+
+
+---
+class: middle, center, dark
+# È OVUNQUE!!!!
+<img height="500" src="img/sand-everywhere.jpg" />
+
+---
+class: middle, center, dark
+
+## controllabile da remoto
+<img height="500" src="img/servers.jpg" />
+
+---
+class: middle, center, dark
+
+## controllabile da remoto
+<img height="500" src="img/shells.jpg" />
+
+---
+class: middle, center, dark
+## permette di automatizzare task
+<img src="img/automation.jpg" />
+
+---
+class: middle, center, azure
+
+#rullo di tamburi
+
+---
+class: middle, center, dark
+## la sua STL è l'intero sistema operativo!
+<img src="img/and-my-axe.jpg" />
+
+---
+class: middle, center,azure
+
+## Sporchiamoci le mani
+
+cd, ls, pwd, cat, less, grep, nano
+
+---
+class: middle, center, azure
+# MAN
+<img src="img/rtfm.jpg" />
+
+---
+class: middle, center, dark
+## man
+<img height="500" src="img/man.jpg" />
+
+---
+class: middle, center, dark
+
+# Un po di teoria
+
+---
+class: middle, center, azure
+
+## Il filesystem
+
+---
+class: middle, center, dark
+<img height="500" src="img/filesystem.png" />
+
+---
+class: middle, center, dark
+<img height="500" src="img/filesystem-v2.png" />
+
+---
+class: middle, center, azure
+# Permessi
+
+---
+class: middle, center, dark
+## Problemi per le new entry
+<img height="500" src="img/kali-newcomer.jpg" />
+
+---
+class: middle, center, dark
+<img width="800" src="img/unix-permissions.png" />
+
+---
+class: middle, center
+<img height="500" src="img/ugo.png" />
+
+---
+class: middle, center
+<img height="600" src="img/the-floor-is-parrot.jpg" />
+
+---
+class: middle, center, dark
+
+## In principio ogni cosa era un file.
+<img height="500" src="img/shoo-jesus-dinosaurs.jpg" />
+
+---
+class: middle, center, dark
+## Anche i processi sono file.
+<img height="400" src="img/linux-proc.jpg" />
+
+---
+class: middle, center, dark
+## Perfino i comandi bash sono file.
+<img src="img/ls.png" />
+
+---
+class: middle, center, azure
+## Concatenare programmi
+
+---
+class: middle, center, dark
+## Ogni file ha degli stream.
+<img height="200" src="img/unix-program-streams.png" />
+
+---
+class: middle, center, azure
+## (ri)sporchiamoci le mani
+|, &gt;, &lt;, $()
+
+<img height="400" src="img/bad-words-comic.jpg" />
+
+---
+class: middle, center, green
+#ssh
+
+---
+class: middle, center, green
+# Controllo del flusso
+
+---
+class: middle, center, dark
+## Scriptare la roba noiosa
+<img height="500" src="img/mai-piu-chiodi.jpg" />
+
+---
+class: middle, center, dark
+## Grezzo ma potente
+<img height="500" src="img/bow-bomb.jpg" />
+
+---
+class: middle, center, azure
+## That's all folks
+<img src="img/meglio-linux.jpg" />
+
+per insulti: palinuro@linux.it
+
+---
+
+
+
+
 
 
 
